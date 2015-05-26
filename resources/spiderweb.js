@@ -149,8 +149,16 @@ function Controller(){
         self.screenWidth = 600;
         self.screenHeight = 600;
 
+        self.screenWidth = window.innerWidth;
+        self.screenHeight = window.innerHeight;
+
+
         self.canvas.width = self.screenWidth;
         self.canvas.height = self.screenHeight;
+
+        var dimensions =  self.canvas.getBoundingClientRect();
+        self.canvas.style.top = - dimensions.top + 'px';
+        self.canvas.style.left = 0 + 'px';
 
         window.cancelAnimationFrame(self.lastRequestId);
         self.drawWebByParts();
