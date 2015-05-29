@@ -1,6 +1,10 @@
 Main topics
 ==============
 
+- Internet
+  - HTTP2
+  - 1000 new domains
+
 - IoT
   - Johny Five
   - cylonjs
@@ -73,6 +77,7 @@ Plan
     Atom
     Microsoft's Code
     iojs/node merge
+    Firefox OS
 
 6. IoT
     Johny-Five
