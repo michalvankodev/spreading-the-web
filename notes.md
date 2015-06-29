@@ -57,9 +57,9 @@ Plan
     JavaScript is n.1 language in the world right now
 
 3. Future of JavaScript
-    multi-threading, gaming, virtual-reality,
+    typed-objects multi-threading, gaming, virtual-reality,
     new APIs (Vibration, Push...)
-    ES6, ES7
+    ES6, ES7, wasm.js
 
 4. Tools
     Many tools, There are for everyone and why they are good,
@@ -91,3 +91,15 @@ Plan
 
 7. End
     Summary. Questions
+
+
+Qoutes
+==========
+
+I'd rather wait 10 more years than make a big fat mistake in a worlds biggest programming language. Jafar Husain - Netflix UI Architect & TC-39 Member
+
+
+Demos
+============
+- WebVR http://borismus.github.io/sechelt
+- DeadTrigger2 - Game WebGl http://beta.unity3d.com/jonas/DT2/
