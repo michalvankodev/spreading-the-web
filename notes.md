@@ -98,6 +98,8 @@ Qoutes
 
 I'd rather wait 10 more years than make a big fat mistake in a worlds biggest programming language. Jafar Husain - Netflix UI Architect & TC-39 Member
 
+These games would be possibly targeting PS4, XBox and PC. Now they could also be targeted at the web with WebGL and ASM.js, web audio and other APIs are important, gamepad APIs, full screen APIs all matter.
+Eric Elliott
 
 Demos
 ============
