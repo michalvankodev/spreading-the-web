@@ -1,0 +1,15 @@
+<h2>WASM & ASM</h2>
+
+<p><em>
+    "The web platform is getting a new low-level binary compile format that will do a better job at being a compiler target than JavaScript."
+<strong>Brendan Eich</strong></em></p>
+
+<aside class="notes" style="font-size: 0.8em">
+    <h3>WebAssembly is:</h3>
+<p> An improvement to JavaScript: Implement your performance critical stuff in wasm and import it like a standard JavaScript module. </p>
+<p> A new language: Represented in a binary format. You can author and debug in a text format so it’s readable.</p>
+<p> A browser improvement: Browsers will understand the binary format, which means we’ll be able to compile binary bundles that compress smaller than the text JavaScript we use today. Smaller payloads mean faster delivery. Depending on compile-time optimization opportunities, WebAssembly bundles may run faster than JavaScript, too!</p>
+<p> A Compile Target: A way for other languages to get first-class binary support across the entire web platform stack.</p>
+<p> These are very simple primitives. Nothing fancy. No complicated object system (prototypal or otherwise). No built-in automatic garbage collector following you around and stopping you periodically while it cleans up your scraps.</p>
+
+</aside>

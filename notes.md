@@ -93,7 +93,7 @@ Plan
     Summary. Questions
 
 
-Qoutes
+Quotes
 ==========
 
 I'd rather wait 10 more years than make a big fat mistake in a worlds biggest programming language. Jafar Husain - Netflix UI Architect & TC-39 Member
@@ -101,7 +101,15 @@ I'd rather wait 10 more years than make a big fat mistake in a worlds biggest pr
 These games would be possibly targeting PS4, XBox and PC. Now they could also be targeted at the web with WebGL and ASM.js, web audio and other APIs are important, gamepad APIs, full screen APIs all matter.
 Eric Elliott
 
+Links
+=========
+http://mtov.github.io/tracking-popularity-github/
+
 Demos
 ============
 - WebVR http://borismus.github.io/sechelt
 - DeadTrigger2 - Game WebGl http://beta.unity3d.com/jonas/DT2/
+
+Images
+==========
+https://d262ilb51hltx0.cloudfront.net/max/1920/1*w-52fSYad5Npdlqwk8oSTQ.png Reign of Eich King

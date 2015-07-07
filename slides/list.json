@@ -4,5 +4,6 @@
     "tools.html",
     "future1.html",
     "es2016.html",
-    "browserapi.html"
+    "browserapi.html",
+    ["wasm.html", "asmjs.html", "asmjs2.html", "wasm2.html"]
 ]
