@@ -10,6 +10,7 @@ function displayDomain(domain) {
     box.classList.add('domain-box');
     box.style.top = Math.floor((Math.random() * container.scrollHeight)) + 'px';
     box.style.left = Math.floor((Math.random() * container.scrollWidth)) + 'px';
+    box.style.color = '#'+Math.floor(Math.random()*16777215).toString(16);
 
     box.appendChild(text);
     container.appendChild(box);
