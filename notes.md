@@ -56,6 +56,10 @@ Plan
     HTML5, CSS, JavaScript
     JavaScript is n.1 language in the world right now
 
+3. Web forward
+    new domains
+    http2
+
 3. Future of JavaScript
     typed-objects multi-threading, gaming, virtual-reality,
     new APIs (Vibration, Push...)

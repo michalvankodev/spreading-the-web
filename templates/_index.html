@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/moon.css" id="theme">
+        <link rel="stylesheet" href="resources/myown.css" id="theme">
 
 
         <!-- For syntax highlighting -->
@@ -88,12 +89,16 @@
             });
         </script>
         <script src="/resources/spiderweb.js"></script>
+        <script src="/resources/domains.js"></script>
         <script>
-          Reveal.addEventListener('ready', function (event) {
+          Reveal.addEventListener('slidechanged', function (event) {
             // FIRST SLIDE CANVAS INITIALIZATION
             if (event.currentSlide.getAttribute('data-html') === 'slides/presentation-index.html') {
               var controller = new Controller();
               controller.init();
+            }
+            else if (event.currentSlide.getAttribute('data-html') === 'slides/domains.html') {
+              runDomains();
             }
           });
         </script>
