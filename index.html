@@ -12,9 +12,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-    
+
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/moon.css" id="theme">
-    
+        <link rel="stylesheet" href="resources/myown.css" id="theme">
+
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
@@ -44,7 +45,200 @@
                 
                     
                         
-    <section data-markdown="slides/index.md"></section>
+    <section data-html="slides/introvideo.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/presentation-index.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/webtechnologies.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/http2.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/http2works.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/http2support.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-html="slides/domains.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/browserapi.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="https://d262ilb51hltx0.cloudfront.net/max/1920/1*w-52fSYad5Npdlqwk8oSTQ.png" data-html="slides/eichking.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/future1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/es2016.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/wasm.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/asmjs.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/asmjs2.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/wasm2.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-html="slides/modules.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/tools2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/transpilers.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/transpilers2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/modularcss.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/popularity.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/javascripthistory.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/jsofftheweb.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/reactnative.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/iojsnode.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/firefoxos.html"></section>
 
 
                     
@@ -84,7 +278,20 @@
                 ]
             });
         </script>
-
+        <script src="/resources/spiderweb.js"></script>
+        <script src="/resources/domains.js"></script>
+        <script>
+          Reveal.addEventListener('slidechanged', function (event) {
+            // FIRST SLIDE CANVAS INITIALIZATION
+            if (event.currentSlide.getAttribute('data-html') === 'slides/presentation-index.html') {
+              var controller = new Controller();
+              controller.init();
+            }
+            else if (event.currentSlide.getAttribute('data-html') === 'slides/domains.html') {
+              runDomains();
+            }
+          });
+        </script>
     </body>
 
 </html>
