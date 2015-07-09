@@ -66,20 +66,21 @@ Plan
     ES6, ES7, wasm.js
 
 4. Tools
+    NPM - comparison of package managers
     Many tools, There are for everyone and why they are good,
     Developers experience
     Babel
     Typescript, And many other transpilers
     ES6 compatibility table
     jspm - modular JS and CSS
-    Gulp/Grunt/Yeoman/ETC/ESLint
-    NPM - comparison of package managers
+    // Gulp/Grunt/Yeoman/ETC/ESLint
     Popularity comparison
 
 5. Outside of browser
     Electron
     Atom
     Microsoft's Code
+    react native
     iojs/node merge
     Firefox OS
 

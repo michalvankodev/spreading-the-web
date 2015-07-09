@@ -21,6 +21,8 @@ function displayDomain(domain) {
  * Display domain for every domain in array randomly in 110 seconds after 3 second delay
  */
 function runDomains() {
+  var container = document.querySelector('#domains-container');
+  container.innerHTML = '';
   domains.forEach(function (domain) {
     setTimeout(displayDomain(domain), Math.floor((Math.random() * 11000 + 3000)));
   });

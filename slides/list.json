@@ -2,15 +2,36 @@
     "introvideo.html",
     "presentation-index.html",
     "webtechnologies.html",
+    [
+        "http2.html",
+        "http2works.html",
+        "http2support.html"
+    ],
+    "domains.html",
+    "browserapi.html",
+    {
+        "filename": "eichking.html",
+        "attr": {
+            "data-background": "https://d262ilb51hltx0.cloudfront.net/max/1920/1*w-52fSYad5Npdlqwk8oSTQ.png"
+        }
+    },
     "future1.html",
     "es2016.html",
-    "browserapi.html",
     [
         "wasm.html",
         "asmjs.html",
         "asmjs2.html",
         "wasm2.html"
     ],
-    "tools.html",
-    "domains.html"
+    "modules.html",
+    "tools2.html",
+    "transpilers.html",
+    "transpilers2.html",
+    "modularcss.html",
+    "popularity.html",
+    "javascripthistory.html",
+    "jsofftheweb.html",
+    "reactnative.html",
+    "iojsnode.html",
+    "firefoxos.html"
 ]
